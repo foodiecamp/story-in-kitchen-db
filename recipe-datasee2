@@ -1,0 +1,283 @@
+/* Recipe 1*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Classic guacamole',
+/*description*/'Super-quick and easy, this guacamole recipe is delicious with fajitas, quesadillas, dolloped into a wrap or served as a snack with crunchy veggies',
+/*difficulty*/1,
+/*serving_amount*/8,
+/*cooking_time*/10,
+/*ingredient*/'half small red onion, 1-2 resh red chillies, 3 ripe avocados, 1 bunch of fresh coriander, 6 ripe cherry tomatoes, 2 limes, extra virgin olive oil, sea salt, freshly ground black pepper',
+/*direction*/'Peel the onion and deseed 1 chilli, then roughly chop it all on a large board. Destone the avocados and scoop the flesh onto the board.<br>Start chopping it all together until fine and well combined. Pick over most of the coriander leaves, roughly chop and add the tomatoes, then continue chopping it all together.<br>Add the juice from 1 lime and 1 tablespoon of oil, then season to taste with salt, pepper and lime juice. Deseed, finely chop and scatter over the remaining chilli if you want more of a kick, pick over the reserved coriander leaves, then serve.',
+/*nutrition_fact*/'calories: 91; carb: 1.8g; fat: 8.8g; protein: 1g; fiber: 8g; sugar: 1g; salt: 0g',
+/* image_url*/'https://jamieoliverprod.s3.amazonaws.com/recipe-database/oldImages/recipe_single/1554_2_1441789324.jpg',
+/*user_id */1,
+/*category*/'Appetizer',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+/* Recipe 2*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Asparagus sushi',
+/*description*/'Vegetables, Lighter New Year, Picnic, Party food',
+/*difficulty*/2,
+/*serving_amount*/24,
+/*cooking_time*/45,
+/*ingredient*/'200 g sushi rice,3 tablespoons of sesame seeds,100 g fine asparagus,2 tablespoons sweet soy sauce,2 tablespoons soy sauce,1 large ripe avocado,2 limes,2 sushi nori strips,1 tablespoons of wasabi,shiso cress',
+/*direction*/'Cook the sushi rice according to the packet instructions, then set aside.Toast the sesame seeds in a dry frying pan until golden.Place a griddle over a high heat, add the asparagus and cook for 10 minutes, or until nice and charred.Put the sweet soy onto one plate and the sesame seeds onto another. Roll the asparagus in the soy sauce, then in the sesame seeds to coat.Peel and destone the avocado, then slice into strips. Squeeze over the juice of 1 lime, then set aside.To assemble the sushi, lay the nori on a sushi rolling mat. Spread over half the rice, leaving a 2cm gap at each end and spoon a little wasabi paste along the centre.Top with strips of avocado and the coated asparagus, then carefully (and as tightly as you can) roll up the sushi.Using a sharp knife, cut the rolls into pieces – about 12 pieces per roll. Serve with sweet soy sauce, some shiso cress and the lime wedges for squeezing over.',
+/*nutrition_fact*/'calories: 209; carb: 31.8g; fat: 7.9g; protein: 4.6g; fiber: 0.2g; sugar: 2.2g; salt: 0.33g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/EwaF_tm74ABBc2VeoJ25Bj.jpg',
+/*user_id */1,
+/*category*/'Main Course',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+/* Recipe 3*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Spicy feta & pepper dip',
+/*description*/'Vegetables, Alfresco, Picnic, Vegetarian',
+/*difficulty*/2,
+/*serving_amount*/4,
+/*cooking_time*/5,
+/*ingredient*/'240 g feta cheese,120 g jarred red peppers (drained weight),3 tablespoons olive oil',
+/*direction*/'In a food processor combine the feta, red peppers and oil.Season with black pepper and blend until smooth.Transfer to a bowl, then serve.',
+/*nutrition_fact*/'calories: 244; carb: 2g; fat: 21.9g; protein: 9.6g; fiber: 0.3g; sugar: 1.9g; salt: 1.5g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/AL4pYuzeaN_8Wnt3KUxTWA.jpg',
+/*user_id */1,
+/*category*/'Snacks',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+/* Recipe 4*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Hollandaise sauce',
+/*description*/'Eggs, Christmas, French, Jamie Magazine',
+/*difficulty*/2,
+/*serving_amount*/1,
+/*cooking_time*/20,
+/*ingredient*/'150 g unsalted butter,2 large free-range egg yolks,1 dessert spoon white wine vinegar,1 lemon',
+/*direction*/'Get a saucepan and a heatproof mixing bowl that will sit stably over the pan. Half-fill the pan with water and bring to a simmer. Turn down the heat as low as it can go but still have the water simmering.Place the butter in a medium pan over a low heat, so it starts to melt but doesn’t burn. When the butter has melted, take it off the heat.Place the egg yolks in your heatproof mixing bowl, which you should then place over the pan of just-simmering water. It’s important that the saucepan is on a low heat, or the eggs will scramble.Using a balloon whisk, start to beat your eggs, then whisk in your white wine vinegar.Keep whisking, and then start adding the melted butter by slowly drizzling it in, whisking all the time, till all the butter has been incorporated. The result should be a lovely, smooth, thick sauce.Season carefully with sea salt and black pepper, and loosen if necessary with little squeezes of lemon juice. Keep tasting the sauce until the flavour is to your liking.',
+/*nutrition_fact*/'calories: 94; carb: 0.1g; fat: 10.1g; protein: 0.6g; fiber: 0g; sugar: 0.1g; salt: 0g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/FLUdOX-9KLaBqSmRnNRU_X.jpg',
+/*user_id */2,
+/*category*/'Sauces',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+/* Recipe 5*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Chicken satay',
+/*description*/'JUICY KEBABS WITH LIGHTLY SPICED PEANUT SAUCE',
+/*difficulty*/3,
+/*serving_amount*/4,
+/*cooking_time*/45,
+/*ingredient*/'1 level teaspoon medium curry powder,½ level teaspoon ground cumin,1 heaped teaspoon turmeric,3-4 fresh chillies,2 cloves of garlic,5 cm piece of ginger,1 bunch of fresh coriander (30g),6 tablespoons crunchy,peanut butter,2 tabelspoons low-salt soy sauce,6 spring onions,4 limes,8 free-range chicken thighs , skin off, bone out,1 handful of shelled peanuts,groundnut oil,¼ of a watermelon (1.5kg) or 1 ripe pineapple',
+/*direction*/'Gently heat the curry powder, cumin and turmeric for 1 minute in a dry pan on a medium heat.Deseed 2 chillies and peel the garlic and ginger. Place in a blender with the toasted spices and coriander (reserving a few nice leaves in a bowl of cold water for later).Add the peanut butter, soy sauce, the green parts of the spring onions, the zest of 2 limes and the juice of 3. Blitz until almost smooth, loosening with a few splashes of water, if needed, then taste and season to perfection.Cut each chicken thigh into 4 pieces and toss with half the satay sauce. Divide and thread onto 4 skewers and marinate in the fridge for at least 2 hours, but preferably overnight.If you’re using a barbecue, get it going 1 hour before you want to cook. If you’re using a griddle pan, cut your wooden skewers to fit and preheat the pan.Get a garnish plate together – drain the coriander leaves, finely slice the whites of the spring onions, finely slice the remaining chillies and wedge up the remaining lime. Toast the peanuts in a dry pan until golden, then crush and add to the plate.When you’re ready to cook, oil and lightly season the chicken on both sides, then place on your medium-hot barbecue or griddle pan. Cook for around 15 minutes, or until beautifully gnarly and golden, turning regularly.Serve on a platter with the rest of the sauce on the side. Sprinkle over the garnishes and slice up some nice ripe wedges of watermelon or pineapple to serve on the side – heavenly.',
+/*nutrition_fact*/'calories: 450; carb: 14.7g; fat: 28.6g; protein: 33.9g; fiber: 1.9g; sugar: 10.5g; salt: 1.56g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/3vImQzBX4lPAEzAJO4dW-h.jpg',
+/*user_id */2,
+/*category*/'Main Course',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+
+/* Recipe 6*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Chocolate mousse with prunes',
+/*description*/'Any leftover prune mixture will keep in an airtight container for up to a month – try it with rice pudding!',
+/*difficulty*/2,
+/*serving_amount*/14,
+/*cooking_time*/150,
+/*ingredient*/'350 g dark chocolate (70%) plus extra to serve,100 ml double cream,10 free-range eggs,50 g golden caster sugar,500 g dried prunes,150 ml whisky,100 ml fresh unsweetened orange juice',
+/*direction*/'Prepare the prunes the night before: combine all the ingredients in a bowl and leave to soak overnight.The next day, break up the chocolate and melt in a bowl set over a pan of simmering water, ensuring the bowl doesn’t touch the water. Remove the bowl from the heat and allow to cool.Warm the cream in a pan over a low heat, then mix into the chocolate until smooth.Separate the eggs and beat the egg whites and sugar with an electric whisk until fluffy. Whisk the yolks into the chocolate mixture, then gently fold this through the beaten egg whites.Place the prunes in the base of a deep, glass trifle dish, pressing them against the sides. Pour over the mousse and allow to set in the fridge for at least 2 to 3 hours.Shave over a little extra chocolate, and serve.',
+/*nutrition_fact*/'calories: 382; carb: 31.1g; fat: 21.6g; protein: 10.2g; fiber: 5.9g; sugar: 29g; salt: 0.2g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/4JBj0YLC4GV9-1agsoA1R1.jpg',
+/*user_id */3,
+/*category*/'Desserts',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+
+/* Recipe 7*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Epic ice cream cake',
+/*description*/'Aussie Christmas, Australia day, Party food, Vegetarian',
+/*difficulty*/2,
+/*serving_amount*/12,
+/*cooking_time*/70,
+/*ingredient*/'90 g butter , at room temperature, plus extra for greasing,90 g light brown sugar,1 large free-range egg,30 g ground almonds,60 g self-raising flour,1 tablespoon cocoa powder,¼ heaped teaspoon baking powder,30 g dark chocolate (70% cocoa solids),50 ml milk,1.5 litres ice cream (2-3 flavours)',
+/*direction*/'Preheat your oven to 180ºC/350ºF/gas 4. Grease the base of a 16cm panettone tin. Set aside.Cream the butter and sugar in a bowl until pale, then beat in the egg and ground almonds until combined.In another bowl, mix together the flour, cocoa, baking powder and a pinch of sea salt, then fold this through the creamed mixture.Chop the chocolate, pop in a bowl and melt it in the microwave for a few seconds. Stir it into the cake batter along with the milk, until smooth.Spoon the batter into the tin and bake in the oven for 25 to 30 minutes, or until firm to the touch and a skewer inserted comes out clean.Remove the cake from the oven, leave to cool in the tin for 5 minutes, then transfer it to a wire rack to cool completely. Take your ice cream out of the freezer to soften a little.Line the panettone tin with two long pieces of cling film, laying them perpendicular to each other (to help you take out the cake).Halve the sponge horizontally and place one of the thin pieces back into the tin, pressing it down flat.Spoon in one flavour of ice cream to give you a layer at least 5cm-thick. Repeat with a second flavour, then top with a third. Keep layering until you’ve used up all of your ice cream.Press the remaining sponge on top, then fold over the overhanging cling film to cover. Pop the cake in the freezer for at least 2 hours to firm up.To serve, turn out the cake onto a board or cake stand and peel off the cling film. Leave it to soften for 5 minutes, then cut it into slices with a large, warm knife.',
+/*nutrition_fact*/'calories: 399; carb: 41.7g; fat: 23.4g; protein: 6.7g; fiber: 0g; sugar: 36.6g; salt: 0g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/8dhIZVN1qOS9cBVMAjX98l.jpg',
+/*user_id */3,
+/*category*/'Desserts',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+/* Recipe 8*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Lentil tabbouleh',
+/*description*/'Vegetables, Picnic, Lighter New Year, Alfresco',
+/*difficulty*/1,
+/*serving_amount*/4,
+/*cooking_time*/30,
+/*ingredient*/'200 g puy lentils,1 bunch of spring onions,200 g ripe cherry tomatoes,1 large bunch of fresh flat-leaf parsley,1 large bunch of fresh mint,extra virgin olive oil,1 lemon',
+/*direction*/'Rinse the lentils, then cook in plenty of salted water until tender. Drain and set aside to cool.Trim and finely slice the spring onions, halve the tomatoes, then pick and finely chop the herb leaves.Mix the cooled lentils with the spring onions, tomatoes, herbs and 4 tablespoons of oil. Add the lemon juice to taste, season with sea salt and black pepper, then serve.',
+/*nutrition_fact*/'calories: 288; carb: 27.7g; fat: 14.5g; protein: 13.7g; fiber: 5.1g; sugar: 3.4g; salt: 0.5g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/DJQZvZOuKerAfB3t-lTl9N.jpg',
+/*user_id */4,
+/*category*/'Salads',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+/* Recipe 9*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Sliced fennel, orange & almond salad',
+/*description*/'Vegetables, Al Fresco, Picnic, Christmas',
+/*difficulty*/2,
+/*serving_amount*/4,
+/*cooking_time*/15,
+/*ingredient*/'3 bulbs of fennel,1 handful of almonds,3 oranges,a few springs of fresh mint,2 handfuls of rocket,sherry vinegar,extra virgin olive oil',
+/*direction*/'Using a speed peeler, shave the fennel, then place in a bowl of ice water.Toast the almonds in a dry frying pan, then crush in a pestle and mortar.Peel and very thinly slice the oranges, then arrange on a platter.Pick the mint leaves. Drain the fennel, spin, then mix with the mint, rocket, a splash of sherry vinegar and oil, and season well with sea salt and black pepper.Scatter the fennel mixture over the oranges and top with toasted almonds.',
+/*nutrition_fact*/'calories: 136; carb: 12.7g; fat: 7.3g; protein: 5.4g; fiber: 2g; sugar: 12.2g; salt: 0.6g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/4BRGCInnq668dtuYPFaVRo.jpg',
+/*user_id */5,
+/*category*/'Salads',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+
+/* Recipe 10*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Squashed brussels ROASTED WITH CHORIZO & CHESTNUTS',
+/*description*/'Squashed Brussels sprouts are a thing of beauty – cooked up with chorizo , its a winning combo.',
+/*difficulty*/2,
+/*serving_amount*/7,
+/*cooking_time*/20,
+/*ingredient*/'1 kg Brussels sprouts,150 g raw quality chorizo,olive oil,100 g vac-packed chestnuts,2 sprigs of fresh rosemary,1 tablespoon sherry vinegar',
+/*direction*/'Preheat the oven to 180°C/350°F/gas 4. Wash and trim the Brussels sprouts, clicking off any tatty outer leaves. Cook for 8 minutes in a pan of boiling salted water, then drain well. Squeeze the chorizo out of its skin, crumbling it into a roasting tray with 1 tablespoon of olive oil. On the hob, fry over a medium heat for 6 minutes, until you have ruby oil, then crumble in the vac-packed chestnuts, strip in the rosemary leaves and shake about. Tip in the sprouts and toss in the sherry vinegar. Squash and flatten the sprouts with a potato masher so they suck up more flavour. Roast for 25 minutes, or until starting to colour. Season to perfection, bang out and serve.',
+/*nutrition_fact*/'calories: 182; carb: 14.2g; fat: 10.1g; protein: 9.4g; fiber: 1.2g; sugar: 5.7g; salt: 1g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/0OEPoPvq4BI92nI9B0yN-l.jpg',
+/*user_id */5,
+/*category*/'Special Dish',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+/* Recipe 11*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Mint & raspberry julep',
+/*description*/'This recipe uses fresh summer raspberries to bring a seasonal twist to a classic cocktail.',
+/*difficulty*/1,
+/*serving_amount*/1,
+/*cooking_time*/30,
+/*ingredient*/'caster sugar,8 fresh mint leaves , plus a few extra to serve,1 small handful of raspberries,ice cubes,50 ml bourbon',
+/*direction*/'Make a simple sugar syrup by heating one part sugar to two parts water in a pan over a medium-low heat. Heat until the sugar dissolves, then place 1 teaspoon of the mixture into a tumbler.Add the mint and raspberries, and muddle. Set aside to macerate for 10 minutes.Remove the mint and strain the drink into a clean glass.Crush some ice and add a small handful to the glass, then pour over the bourbon. Stir, and finish with more crushed ice and fresh mint leaves.',
+/*nutrition_fact*/'calories: 40; carb: 0g; fat: 0g; protein: 0g; fiber: 0g; sugar: 0.5g; salt: 0g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/1Qxr3gZS4JJ9M9NxER_zPS.jpg',
+/*user_id */6,
+/*category*/'Drinks',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+
+/* Recipe 12*/
+
+INSERT INTO npudb.recipe(title, description, difficulty, serving_amount, cooking_time, ingredient, direction, nutrition_fact, image_url, user_id, category, created_by, created_date, updated_by, updated_date)
+VALUES(
+
+/*title*/'Christmas pudding vodka',
+/*description*/'Make festive cocktails with this spicy vodka',
+/*difficulty*/2,
+/*serving_amount*/5,
+/*cooking_time*/30,
+/*ingredient*/'1 piece of blade mace,2 sticks of cinnamon,2 teaspoons ground mixed spice,1 lemon,1 orange,300 g currants,200 g chopped mixed peel,450 g light muscovado sugar,1 litre quality vodka',
+/*direction*/'Warm the spices in a dry pan over a low heat for 10 minutes, or until the aromas are released.Grate the lemon and orange rind into in a bowl, then squeeze in 2 tablespoons of each juice.Combine with the rest of the ingredients, including the warmed spices. Mix well, cover and chill for 3 to 4 days, stirring a few times daily, if you can.To bottle the vodka, line a sieve with muslin and strain. Discard the cinnamon sticks, but reserve the soaked fruits for other uses.Decant the vodka into clean bottles and seal – this will store for up to one year, and can be served from the freezer or at room temperature.',
+/*nutrition_fact*/'calories: 115; carb: 3.5g; fat: 0g; protein: 0.1g; fiber: 0.1g; sugar: 3.5g; salt: 0g',
+/* image_url*/'http://cdn.jamieoliver.com/recipe-database/xtra_med/63fZyP83q00A4IzT-xK73H.jpg',
+/*user_id */6,
+/*category*/'Drinks',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);
+
+
+
+
