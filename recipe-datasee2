@@ -415,5 +415,23 @@ VALUES(
 
 );
 
+/*(
 
+/*title*/ paste title here,
+/*description*/'paste description here',
+/*difficulty*/ Enter difficulty value here,
+/*serving_amount*/Enter serving amount,
+/*cooking_time*/Enter Cooking time,
+/*ingredient*/'paste ingredient list',
+/*direction*/'paste description here',
+/*nutrition_fact*/'paste calories here',
+/* image_url*/'image url here',
+/*user_id */enter user id which is not greater than number of users in user table,
+/*category*/'Enter category here',
+/*created_by*/'admin',
+/*created_date*/ CURRENT_TIMESTAMP(), 
+/*updated_by*/'admin',
+/*updated_date*/ CURRENT_TIMESTAMP()
+
+);*/
 
